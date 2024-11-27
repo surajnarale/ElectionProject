@@ -14,7 +14,7 @@ public class HibernateConfig {
 		cfg.addAnnotatedClass(Candidate.class);
 		SessionFactory sf = cfg.buildSessionFactory();
 		
-	//	System.out.println();
+
 		
 		return sf;
 	}
